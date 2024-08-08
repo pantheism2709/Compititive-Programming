@@ -8,10 +8,9 @@ In competitive programming, as well as on platforms like LeetCode and GeeksforGe
    - Most online servers can execute approximately \(10^8\) operations in about 1 second.
 
 2. **Time Limits**:
-   - If the time limit for a problem is given as 2 seconds, your code should be optimized to handle around \(2 \times 10^8\) operations, not \(10^{16}\) operations.
-   - Similarly, if the time limit is 5 seconds, your code should ideally handle up to \(5 \times 10^8\) operations.
+   - We must be careful that if the time limit is given as 2s the operations in our code must be roughly 2*108, not 1016. Similarly, 5s refers to 5*108
 
 3. **Time Complexity**:
-   - To ensure that your code runs within the given time limits, aim for a time complexity around \(O(10^8)\) when the time limit is 1 second. Constants and lower-order terms are generally ignored in this context.
+   - To ensure that your code runs within the given time limits, aim for a time complexity around O(10^8) when the time limit is 1 second. Constants and lower-order terms are generally ignored in this context.
 
 By adhering to these guidelines, you can improve the likelihood that your solution will run efficiently within the provided time constraints.
