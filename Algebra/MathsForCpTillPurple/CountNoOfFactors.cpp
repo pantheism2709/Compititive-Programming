@@ -1,5 +1,9 @@
 //https://www.youtube.com/watch?v=tDM6lT-qjys
 
+// count number of factors/divsiors .....divisor vo hota he jis
+// se hum divide krte he dividend vo hota he jisko hum divide krte he
+// quotient vo hota jo divide krne pe ata ... remainder is remainder 🙂
+
 // TC:- O(sqrt(N))
 
 #include <bits/stdc++.h>
