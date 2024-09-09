@@ -111,12 +111,13 @@ when the value of b got increased ... upto 1e18 tak to humara upar ka code kam k
 but agar b use bhi bada ho array ya string ke form me ho tab kya hoga
 
 
-https://www.youtube.com/watch?v=GApcdkIe9WM   please go through this video 
+https://www.youtube.com/watch?v=GApcdkIe9WM  ,  https://www.youtube.com/watch?v=877jLgKg_yg  please go through this video 
 
 */
 
 
-// if m is a prime number then you will call this function like binpow(a, b % m-1 , m);
+// if m is a prime number then you will call this function like binpow(a, b % m-1 , m); because 
+// in that case euler totient will be m-1;
 
 long long binpow(long long a, long long b, long long m) {
     long long res = 1;
@@ -135,5 +136,9 @@ long long binpow(long long a, long long b, long long m) {
 // calculate the euler totient factor .
 
 
+// or here is online euler totient calculator you just enter your value and it will give euler totient
+// https://mathtools.lagrida.com/arithmetic/euler_totient.html
 
+// question related to it
 
+ 
